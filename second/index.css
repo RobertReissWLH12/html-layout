@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+    height: 1200px;
+    padding: 25px;
+}
+
+.header-container {
+    height: 300px;
+    width: 95%;
+    border-width: 7px;
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+    margin: 100px;
+    top: 80px;
+    left: 43.25%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.header-rect1 {
+    height: 192px;
+    width: 65px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background-color: #951DF2;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.header-rect2 {
+    height: 260px;
+    width: 520px;
+    position: absolute;
+    background-color: green;
+    bottom: 15px;
+    left: 180px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.header-circle {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #64BDD8;
+    bottom: 15px;
+    left: 770px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.middle-container {
+    height: 380px;
+    width: 95%;
+    border-width: 6px;
+    border-color: black;
+    border-style: dotted;
+    position: absolute;
+    margin: 100px;
+    top: 65%;
+    left: 43.25%;
+    transform: translate(-50%, -50%)
+
+}
+
+.middle-box {
+    width: 90%;
+    height: 280px;
+    margin: 60px;
+    position: absolute;
+    background-color: #F2ECBA;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,20);
+}
+
+.footer-container {
+    height:400px;
+    width: 700px;
+    border: 1.5px;
+    border-color: grey;
+    border-style: solid;
+    position: absolute;
+    padding: 5px;
+    margin: 100px auto;
+    vertical-align: bottom;
+    top: 925px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,20);
+    
+
+}
+
+#message-text1 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    color: navy;
+    top: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 300%;
+    letter-spacing: 10px;
+
+}
+
+#message-text2 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    color: navy;
+    top: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 300%;
+    letter-spacing: 10px;
+    
+    
+}
+
