@@ -1,0 +1,56 @@
+body {
+    height: 1600px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 190px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.header-box {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    background-color: #37A9F4;
+    left: 50px;
+    display: inline-block;
+    margin: 15px auto;
+}
+
+.text-window {
+    height: 400px;
+    width: 100%;
+    background-color: white;
+}
+
+#paragraph {
+    font-size: 270%;
+    font-family: sans-serif;
+    padding: 25px 100px;
+}
+
+.strip1 {
+    height: 250px;
+    width: 100%;
+    background-color: #37A9F4;
+}
+
+.strip2 {
+    height: 250px;
+    width: 100%;
+    background-color: lightskyblue;
+}
+
+.strip3 {
+    height: 250px;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+.strip4 {
+    height: 250px;
+    width: 100%;
+    background-color: yellow;
+}
